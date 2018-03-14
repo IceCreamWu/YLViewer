@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D85606A962534BB0DF6E71 /* Pods_YLViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E657157EB8E464851A572EA /* Pods_YLViewer.framework */; };
 		A040F01B205900A000F38F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F01A205900A000F38F2A /* AppDelegate.m */; };
 		A040F01E205900A000F38F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F01D205900A000F38F2A /* ViewController.m */; };
 		A040F021205900A000F38F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A040F01F205900A000F38F2A /* Main.storyboard */; };
 		A040F023205900A000F38F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A040F022205900A000F38F2A /* Assets.xcassets */; };
 		A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A040F024205900A000F38F2A /* LaunchScreen.storyboard */; };
 		A040F029205900A000F38F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F028205900A000F38F2A /* main.m */; };
+		A040F0312059089A00F38F2A /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A040F0302059089A00F38F2A /* demo.mp4 */; };
+		A040F0342059207300F38F2A /* YLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F0332059207300F38F2A /* YLVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E657157EB8E464851A572EA /* Pods_YLViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682FACD823A5002A813CB52D /* Pods-YLViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer.release.xcconfig"; sourceTree = "<group>"; };
 		A040F016205900A000F38F2A /* YLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A040F019205900A000F38F2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A040F01A205900A000F38F2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		A040F025205900A000F38F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A040F027205900A000F38F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A040F028205900A000F38F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A040F0302059089A00F38F2A /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		A040F0322059207300F38F2A /* YLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVideoView.h; sourceTree = "<group>"; };
+		A040F0332059207300F38F2A /* YLVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVideoView.m; sourceTree = "<group>"; };
+		A040F0352059217F00F38F2A /* YLViewer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewer.pch; sourceTree = "<group>"; };
+		EF4A07B6E5F7D090E57ED687 /* Pods-YLViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D85606A962534BB0DF6E71 /* Pods_YLViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CB369C577E55BA970292534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E657157EB8E464851A572EA /* Pods_YLViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24AD525CB32C4962F9CBEA7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A07B6E5F7D090E57ED687 /* Pods-YLViewer.debug.xcconfig */,
+				682FACD823A5002A813CB52D /* Pods-YLViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A040F00D205900A000F38F2A = {
 			isa = PBXGroup;
 			children = (
 				A040F018205900A000F38F2A /* YLViewer */,
 				A040F017205900A000F38F2A /* Products */,
+				24AD525CB32C4962F9CBEA7A /* Pods */,
+				1CB369C577E55BA970292534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +88,7 @@
 		A040F018205900A000F38F2A /* YLViewer */ = {
 			isa = PBXGroup;
 			children = (
+				A040F02F2059087600F38F2A /* Resources */,
 				A040F019205900A000F38F2A /* AppDelegate.h */,
 				A040F01A205900A000F38F2A /* AppDelegate.m */,
 				A040F01C205900A000F38F2A /* ViewController.h */,
@@ -67,8 +98,19 @@
 				A040F024205900A000F38F2A /* LaunchScreen.storyboard */,
 				A040F027205900A000F38F2A /* Info.plist */,
 				A040F028205900A000F38F2A /* main.m */,
+				A040F0322059207300F38F2A /* YLVideoView.h */,
+				A040F0332059207300F38F2A /* YLVideoView.m */,
+				A040F0352059217F00F38F2A /* YLViewer.pch */,
 			);
 			path = YLViewer;
+			sourceTree = "<group>";
+		};
+		A040F02F2059087600F38F2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A040F0302059089A00F38F2A /* demo.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A040F02C205900A000F38F2A /* Build configuration list for PBXNativeTarget "YLViewer" */;
 			buildPhases = (
+				AB6F6E558831DC7A3EEE2CB5 /* [CP] Check Pods Manifest.lock */,
 				A040F012205900A000F38F2A /* Sources */,
 				A040F013205900A000F38F2A /* Frameworks */,
 				A040F014205900A000F38F2A /* Resources */,
+				F6B01995F830A6456ED2523C /* [CP] Embed Pods Frameworks */,
+				9954B9BEC177BDF52399BA57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +142,7 @@
 		A040F00E205900A000F38F2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YL;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = IceCreamWu;
 				TargetAttributes = {
@@ -129,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A040F0312059089A00F38F2A /* demo.mp4 in Resources */,
 				A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */,
 				A040F023205900A000F38F2A /* Assets.xcassets in Resources */,
 				A040F021205900A000F38F2A /* Main.storyboard in Resources */,
@@ -136,6 +183,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9954B9BEC177BDF52399BA57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6F6E558831DC7A3EEE2CB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B01995F830A6456ED2523C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A040F012205900A000F38F2A /* Sources */ = {
@@ -145,6 +246,7 @@
 				A040F01E205900A000F38F2A /* ViewController.m in Sources */,
 				A040F029205900A000F38F2A /* main.m in Sources */,
 				A040F01B205900A000F38F2A /* AppDelegate.m in Sources */,
+				A040F0342059207300F38F2A /* YLVideoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +378,15 @@
 		};
 		A040F02D205900A000F38F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4A07B6E5F7D090E57ED687 /* Pods-YLViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/${TARGETNAME}/${TARGETNAME}.pch";
 				INFOPLIST_FILE = YLViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +396,15 @@
 		};
 		A040F02E205900A000F38F2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682FACD823A5002A813CB52D /* Pods-YLViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/${TARGETNAME}/${TARGETNAME}.pch";
 				INFOPLIST_FILE = YLViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
