@@ -10,7 +10,8 @@
 #define YLViewer_pch
 
 #import <UIKit/UIKit.h>
-
 #import <YYKit/YYKit.h>
+
+#import "YLViewerConst.h"
 
 #endif /* YLViewer_pch */

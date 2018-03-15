@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "YLNavigationController.h"
+#import "YLIndexController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    YLIndexController *indexController = [[YLIndexController alloc] init];
+    YLNavigationController *navController = [[YLNavigationController alloc] initWithRootViewController:indexController];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		02D85606A962534BB0DF6E71 /* Pods_YLViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E657157EB8E464851A572EA /* Pods_YLViewer.framework */; };
+		A010F2D1205A26D2003B60FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2CF205A26D2003B60FC /* main.m */; };
+		A010F2D2205A26D2003B60FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A010F2D0205A26D2003B60FC /* Info.plist */; };
+		A010F2D9205A4D3A003B60FC /* YLVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2D8205A4D3A003B60FC /* YLVideoController.m */; };
+		A010F2DC205A4D48003B60FC /* YLIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2DB205A4D48003B60FC /* YLIndexController.m */; };
+		A010F2E1205A4DCA003B60FC /* YLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2E0205A4DCA003B60FC /* YLNavigationController.m */; };
 		A040F01B205900A000F38F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F01A205900A000F38F2A /* AppDelegate.m */; };
-		A040F01E205900A000F38F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F01D205900A000F38F2A /* ViewController.m */; };
-		A040F021205900A000F38F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A040F01F205900A000F38F2A /* Main.storyboard */; };
 		A040F023205900A000F38F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A040F022205900A000F38F2A /* Assets.xcassets */; };
 		A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A040F024205900A000F38F2A /* LaunchScreen.storyboard */; };
-		A040F029205900A000F38F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F028205900A000F38F2A /* main.m */; };
 		A040F0312059089A00F38F2A /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A040F0302059089A00F38F2A /* demo.mp4 */; };
 		A040F0342059207300F38F2A /* YLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F0332059207300F38F2A /* YLVideoView.m */; };
 /* End PBXBuildFile section */
@@ -21,16 +23,20 @@
 /* Begin PBXFileReference section */
 		4E657157EB8E464851A572EA /* Pods_YLViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		682FACD823A5002A813CB52D /* Pods-YLViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer.release.xcconfig"; sourceTree = "<group>"; };
+		A010F2CF205A26D2003B60FC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A010F2D0205A26D2003B60FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A010F2D7205A4D3A003B60FC /* YLVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVideoController.h; sourceTree = "<group>"; };
+		A010F2D8205A4D3A003B60FC /* YLVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVideoController.m; sourceTree = "<group>"; };
+		A010F2DA205A4D48003B60FC /* YLIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLIndexController.h; sourceTree = "<group>"; };
+		A010F2DB205A4D48003B60FC /* YLIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIndexController.m; sourceTree = "<group>"; };
+		A010F2DF205A4DCA003B60FC /* YLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLNavigationController.h; sourceTree = "<group>"; };
+		A010F2E0205A4DCA003B60FC /* YLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLNavigationController.m; sourceTree = "<group>"; };
+		A010F2E4205A51AF003B60FC /* YLViewerConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewerConst.h; sourceTree = "<group>"; };
 		A040F016205900A000F38F2A /* YLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A040F019205900A000F38F2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A040F01A205900A000F38F2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A040F01C205900A000F38F2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A040F01D205900A000F38F2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A040F020205900A000F38F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A040F022205900A000F38F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A040F025205900A000F38F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A040F027205900A000F38F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A040F028205900A000F38F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A040F0302059089A00F38F2A /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 		A040F0322059207300F38F2A /* YLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVideoView.h; sourceTree = "<group>"; };
 		A040F0332059207300F38F2A /* YLVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVideoView.m; sourceTree = "<group>"; };
@@ -67,6 +73,78 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A010F2CE205A2695003B60FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2D0205A26D2003B60FC /* Info.plist */,
+				A010F2CF205A26D2003B60FC /* main.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		A010F2D3205A2767003B60FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2DD205A4D54003B60FC /* Base */,
+				A010F2D6205A4CF4003B60FC /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A010F2D4205A469F003B60FC /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2DA205A4D48003B60FC /* YLIndexController.h */,
+				A010F2DB205A4D48003B60FC /* YLIndexController.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		A010F2D5205A4A20003B60FC /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2D7205A4D3A003B60FC /* YLVideoController.h */,
+				A010F2D8205A4D3A003B60FC /* YLVideoController.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		A010F2D6205A4CF4003B60FC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2D5205A4A20003B60FC /* Video */,
+				A010F2D4205A469F003B60FC /* Index */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A010F2DD205A4D54003B60FC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2E2205A4FBB003B60FC /* View */,
+				A010F2DE205A4D9D003B60FC /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A010F2DE205A4D9D003B60FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2DF205A4DCA003B60FC /* YLNavigationController.h */,
+				A010F2E0205A4DCA003B60FC /* YLNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A010F2E2205A4FBB003B60FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A040F0322059207300F38F2A /* YLVideoView.h */,
+				A040F0332059207300F38F2A /* YLVideoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A040F00D205900A000F38F2A = {
 			isa = PBXGroup;
 			children = (
@@ -88,19 +166,13 @@
 		A040F018205900A000F38F2A /* YLViewer */ = {
 			isa = PBXGroup;
 			children = (
-				A040F02F2059087600F38F2A /* Resources */,
 				A040F019205900A000F38F2A /* AppDelegate.h */,
 				A040F01A205900A000F38F2A /* AppDelegate.m */,
-				A040F01C205900A000F38F2A /* ViewController.h */,
-				A040F01D205900A000F38F2A /* ViewController.m */,
-				A040F01F205900A000F38F2A /* Main.storyboard */,
-				A040F022205900A000F38F2A /* Assets.xcassets */,
-				A040F024205900A000F38F2A /* LaunchScreen.storyboard */,
-				A040F027205900A000F38F2A /* Info.plist */,
-				A040F028205900A000F38F2A /* main.m */,
-				A040F0322059207300F38F2A /* YLVideoView.h */,
-				A040F0332059207300F38F2A /* YLVideoView.m */,
 				A040F0352059217F00F38F2A /* YLViewer.pch */,
+				A010F2E4205A51AF003B60FC /* YLViewerConst.h */,
+				A010F2D3205A2767003B60FC /* Classes */,
+				A040F02F2059087600F38F2A /* Resources */,
+				A010F2CE205A2695003B60FC /* Support Files */,
 			);
 			path = YLViewer;
 			sourceTree = "<group>";
@@ -109,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				A040F0302059089A00F38F2A /* demo.mp4 */,
+				A040F024205900A000F38F2A /* LaunchScreen.storyboard */,
+				A040F022205900A000F38F2A /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -178,7 +252,7 @@
 				A040F0312059089A00F38F2A /* demo.mp4 in Resources */,
 				A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */,
 				A040F023205900A000F38F2A /* Assets.xcassets in Resources */,
-				A040F021205900A000F38F2A /* Main.storyboard in Resources */,
+				A010F2D2205A26D2003B60FC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,9 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A040F01E205900A000F38F2A /* ViewController.m in Sources */,
-				A040F029205900A000F38F2A /* main.m in Sources */,
+				A010F2D9205A4D3A003B60FC /* YLVideoController.m in Sources */,
+				A010F2E1205A4DCA003B60FC /* YLNavigationController.m in Sources */,
 				A040F01B205900A000F38F2A /* AppDelegate.m in Sources */,
+				A010F2DC205A4D48003B60FC /* YLIndexController.m in Sources */,
+				A010F2D1205A26D2003B60FC /* main.m in Sources */,
 				A040F0342059207300F38F2A /* YLVideoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +329,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A040F01F205900A000F38F2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A040F020205900A000F38F2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A040F024205900A000F38F2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -385,7 +453,7 @@
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/${TARGETNAME}/${TARGETNAME}.pch";
-				INFOPLIST_FILE = YLViewer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YLViewer/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLViewer;
@@ -403,7 +471,7 @@
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/${TARGETNAME}/${TARGETNAME}.pch";
-				INFOPLIST_FILE = YLViewer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YLViewer/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLViewer;
