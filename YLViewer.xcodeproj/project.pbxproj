@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		02D85606A962534BB0DF6E71 /* Pods_YLViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E657157EB8E464851A572EA /* Pods_YLViewer.framework */; };
 		A010F2D1205A26D2003B60FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2CF205A26D2003B60FC /* main.m */; };
-		A010F2D2205A26D2003B60FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A010F2D0205A26D2003B60FC /* Info.plist */; };
 		A010F2D9205A4D3A003B60FC /* YLVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2D8205A4D3A003B60FC /* YLVideoController.m */; };
 		A010F2DC205A4D48003B60FC /* YLIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2DB205A4D48003B60FC /* YLIndexController.m */; };
 		A010F2E1205A4DCA003B60FC /* YLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A010F2E0205A4DCA003B60FC /* YLNavigationController.m */; };
 		A040F01B205900A000F38F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F01A205900A000F38F2A /* AppDelegate.m */; };
 		A040F023205900A000F38F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A040F022205900A000F38F2A /* Assets.xcassets */; };
 		A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A040F024205900A000F38F2A /* LaunchScreen.storyboard */; };
-		A040F0312059089A00F38F2A /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A040F0302059089A00F38F2A /* demo.mp4 */; };
 		A040F0342059207300F38F2A /* YLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F0332059207300F38F2A /* YLVideoView.m */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +35,6 @@
 		A040F01A205900A000F38F2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A040F022205900A000F38F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A040F025205900A000F38F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A040F0302059089A00F38F2A /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 		A040F0322059207300F38F2A /* YLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVideoView.h; sourceTree = "<group>"; };
 		A040F0332059207300F38F2A /* YLVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVideoView.m; sourceTree = "<group>"; };
 		A040F0352059217F00F38F2A /* YLViewer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewer.pch; sourceTree = "<group>"; };
@@ -180,7 +177,6 @@
 		A040F02F2059087600F38F2A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A040F0302059089A00F38F2A /* demo.mp4 */,
 				A040F024205900A000F38F2A /* LaunchScreen.storyboard */,
 				A040F022205900A000F38F2A /* Assets.xcassets */,
 			);
@@ -249,10 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A040F0312059089A00F38F2A /* demo.mp4 in Resources */,
 				A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */,
 				A040F023205900A000F38F2A /* Assets.xcassets in Resources */,
-				A010F2D2205A26D2003B60FC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
