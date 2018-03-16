@@ -63,6 +63,9 @@ static NSString *const YLIndexCellID = @"YLIndexCell";
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    YLIndexModel *model = self.indexModels[indexPath.row];
+    YLVideoController *controller = [[YLVideoController alloc] initWithPath:model.path];
+    [self presentViewController:controller animated:NO completion:nil];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

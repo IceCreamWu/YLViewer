@@ -10,4 +10,6 @@
 
 @interface YLVideoController : YLViewController
 
+- (instancetype)initWithPath:(NSString *)path;
+
 @end

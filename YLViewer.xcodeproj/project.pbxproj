@@ -20,6 +20,7 @@
 		A0F9B10E205B5B4B00E466E0 /* YLIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B10D205B5B4B00E466E0 /* YLIndexCell.m */; };
 		A0F9B111205B5B7400E466E0 /* YLIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B110205B5B7400E466E0 /* YLIndexModel.m */; };
 		A0F9B119205BB6EB00E466E0 /* NSString+YLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B118205BB6EB00E466E0 /* NSString+YLExtension.m */; };
+		A0F9B11E205BC67F00E466E0 /* YLVideoControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B11D205BC67F00E466E0 /* YLVideoControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		A0F9B110205B5B7400E466E0 /* YLIndexModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIndexModel.m; sourceTree = "<group>"; };
 		A0F9B117205BB6EB00E466E0 /* NSString+YLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YLExtension.h"; sourceTree = "<group>"; };
 		A0F9B118205BB6EB00E466E0 /* NSString+YLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YLExtension.m"; sourceTree = "<group>"; };
+		A0F9B11C205BC67F00E466E0 /* YLVideoControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVideoControlView.h; sourceTree = "<group>"; };
+		A0F9B11D205BC67F00E466E0 /* YLVideoControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVideoControlView.m; sourceTree = "<group>"; };
 		EF4A07B6E5F7D090E57ED687 /* Pods-YLViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +117,8 @@
 		A010F2D5205A4A20003B60FC /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				A010F2D7205A4D3A003B60FC /* YLVideoController.h */,
-				A010F2D8205A4D3A003B60FC /* YLVideoController.m */,
+				A0F9B11B205BBE7E00E466E0 /* Views */,
+				A0F9B11A205BBE7600E466E0 /* Controllers */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -152,8 +155,6 @@
 		A010F2E2205A4FBB003B60FC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A040F0322059207300F38F2A /* YLVideoView.h */,
-				A040F0332059207300F38F2A /* YLVideoView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +234,26 @@
 				A0F9B118205BB6EB00E466E0 /* NSString+YLExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		A0F9B11A205BBE7600E466E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2D7205A4D3A003B60FC /* YLVideoController.h */,
+				A010F2D8205A4D3A003B60FC /* YLVideoController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0F9B11B205BBE7E00E466E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A040F0322059207300F38F2A /* YLVideoView.h */,
+				A040F0332059207300F38F2A /* YLVideoView.m */,
+				A0F9B11C205BC67F00E466E0 /* YLVideoControlView.h */,
+				A0F9B11D205BC67F00E466E0 /* YLVideoControlView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +389,7 @@
 				A010F2E1205A4DCA003B60FC /* YLNavigationController.m in Sources */,
 				A040F01B205900A000F38F2A /* AppDelegate.m in Sources */,
 				A010F2DC205A4D48003B60FC /* YLIndexController.m in Sources */,
+				A0F9B11E205BC67F00E466E0 /* YLVideoControlView.m in Sources */,
 				A0F9B108205B56B900E466E0 /* YLViewController.m in Sources */,
 				A0F9B10E205B5B4B00E466E0 /* YLIndexCell.m in Sources */,
 				A010F2D1205A26D2003B60FC /* main.m in Sources */,
