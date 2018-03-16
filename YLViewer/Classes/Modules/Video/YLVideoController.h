@@ -6,8 +6,8 @@
 //  Copyright © 2018年 IceCreamWu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YLViewController.h"
 
-@interface YLVideoController : UIViewController
+@interface YLVideoController : YLViewController
 
 @end

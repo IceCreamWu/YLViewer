@@ -16,6 +16,10 @@
 		A040F023205900A000F38F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A040F022205900A000F38F2A /* Assets.xcassets */; };
 		A040F026205900A000F38F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A040F024205900A000F38F2A /* LaunchScreen.storyboard */; };
 		A040F0342059207300F38F2A /* YLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A040F0332059207300F38F2A /* YLVideoView.m */; };
+		A0F9B108205B56B900E466E0 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B107205B56B900E466E0 /* YLViewController.m */; };
+		A0F9B10E205B5B4B00E466E0 /* YLIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B10D205B5B4B00E466E0 /* YLIndexCell.m */; };
+		A0F9B111205B5B7400E466E0 /* YLIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B110205B5B7400E466E0 /* YLIndexModel.m */; };
+		A0F9B119205BB6EB00E466E0 /* NSString+YLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9B118205BB6EB00E466E0 /* NSString+YLExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,14 @@
 		A040F0322059207300F38F2A /* YLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVideoView.h; sourceTree = "<group>"; };
 		A040F0332059207300F38F2A /* YLVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVideoView.m; sourceTree = "<group>"; };
 		A040F0352059217F00F38F2A /* YLViewer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewer.pch; sourceTree = "<group>"; };
+		A0F9B106205B56B900E466E0 /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
+		A0F9B107205B56B900E466E0 /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
+		A0F9B10C205B5B4B00E466E0 /* YLIndexCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLIndexCell.h; sourceTree = "<group>"; };
+		A0F9B10D205B5B4B00E466E0 /* YLIndexCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIndexCell.m; sourceTree = "<group>"; };
+		A0F9B10F205B5B7400E466E0 /* YLIndexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLIndexModel.h; sourceTree = "<group>"; };
+		A0F9B110205B5B7400E466E0 /* YLIndexModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIndexModel.m; sourceTree = "<group>"; };
+		A0F9B117205BB6EB00E466E0 /* NSString+YLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YLExtension.h"; sourceTree = "<group>"; };
+		A0F9B118205BB6EB00E466E0 /* NSString+YLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YLExtension.m"; sourceTree = "<group>"; };
 		EF4A07B6E5F7D090E57ED687 /* Pods-YLViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLViewer/Pods-YLViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +94,7 @@
 		A010F2D3205A2767003B60FC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A0F9B116205BB64F00E466E0 /* Category */,
 				A010F2DD205A4D54003B60FC /* Base */,
 				A010F2D6205A4CF4003B60FC /* Modules */,
 			);
@@ -91,8 +104,9 @@
 		A010F2D4205A469F003B60FC /* Index */ = {
 			isa = PBXGroup;
 			children = (
-				A010F2DA205A4D48003B60FC /* YLIndexController.h */,
-				A010F2DB205A4D48003B60FC /* YLIndexController.m */,
+				A0F9B10B205B5B2F00E466E0 /* Models */,
+				A0F9B10A205B5B2A00E466E0 /* Views */,
+				A0F9B109205B5B1B00E466E0 /* Controllers */,
 			);
 			path = Index;
 			sourceTree = "<group>";
@@ -129,6 +143,8 @@
 			children = (
 				A010F2DF205A4DCA003B60FC /* YLNavigationController.h */,
 				A010F2E0205A4DCA003B60FC /* YLNavigationController.m */,
+				A0F9B106205B56B900E466E0 /* YLViewController.h */,
+				A0F9B107205B56B900E466E0 /* YLViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,6 +197,42 @@
 				A040F022205900A000F38F2A /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0F9B109205B5B1B00E466E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A010F2DA205A4D48003B60FC /* YLIndexController.h */,
+				A010F2DB205A4D48003B60FC /* YLIndexController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0F9B10A205B5B2A00E466E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0F9B10C205B5B4B00E466E0 /* YLIndexCell.h */,
+				A0F9B10D205B5B4B00E466E0 /* YLIndexCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0F9B10B205B5B2F00E466E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0F9B10F205B5B7400E466E0 /* YLIndexModel.h */,
+				A0F9B110205B5B7400E466E0 /* YLIndexModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0F9B116205BB64F00E466E0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A0F9B117205BB6EB00E466E0 /* NSString+YLExtension.h */,
+				A0F9B118205BB6EB00E466E0 /* NSString+YLExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,12 +363,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F9B111205B5B7400E466E0 /* YLIndexModel.m in Sources */,
 				A010F2D9205A4D3A003B60FC /* YLVideoController.m in Sources */,
 				A010F2E1205A4DCA003B60FC /* YLNavigationController.m in Sources */,
 				A040F01B205900A000F38F2A /* AppDelegate.m in Sources */,
 				A010F2DC205A4D48003B60FC /* YLIndexController.m in Sources */,
+				A0F9B108205B56B900E466E0 /* YLViewController.m in Sources */,
+				A0F9B10E205B5B4B00E466E0 /* YLIndexCell.m in Sources */,
 				A010F2D1205A26D2003B60FC /* main.m in Sources */,
 				A040F0342059207300F38F2A /* YLVideoView.m in Sources */,
+				A0F9B119205BB6EB00E466E0 /* NSString+YLExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +499,7 @@
 			baseConfigurationReference = EF4A07B6E5F7D090E57ED687 /* Pods-YLViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -452,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,6 +519,7 @@
 			baseConfigurationReference = 682FACD823A5002A813CB52D /* Pods-YLViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -470,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

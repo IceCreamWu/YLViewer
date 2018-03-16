@@ -9,7 +9,12 @@
 #ifndef YLViewerConst_h
 #define YLViewerConst_h
 
-#define YLMainColor         UIColorHex(39CB75)
+#define YLTintColor         UIColorHex(39CB75)
 #define YLBgColor           UIColorHex(FFFFFF)
+#define YLNavigationColor   UIColorHex(191919)
+
+#define YLIndexCellHeight   (90.f)
+
+#define YLVideoFormats      @[@"mp4", @"flv"]
 
 #endif /* YLViewerConst_h */
